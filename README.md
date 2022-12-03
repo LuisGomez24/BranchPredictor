@@ -1,7 +1,7 @@
 # Proyecto de Predictor de Saltos para el curso CI-0120 Arquitectura de Computadores de la Universidad de Costa Rica
 
 ## Descripción
-Este proyecto contiene los predictores de saltos de 2 bits de saturación y global de 2 niveles. Estos predictores seran probados con el benchmark SPECInt2000 del gcc compiler.
+Este proyecto contiene los predictores de saltos de 2 bits de saturación y global de 2 niveles. Estos predictores seran probados con el benchmark SPECInt2000 del GNU Compiler Collection.
 
 - El predictor de salto de 2 bits se compone de una tabla de 2^s entradas , donde se indexa la tabla con los últimos s bits de la dirección del PC.
 - El predictor de salto global de 2 niveles indexa una tabla de 2^s entradas mediante el uso de un registro global deslizante de g bits, que hace XOR con los últimos s bits de la dirección del PC.
